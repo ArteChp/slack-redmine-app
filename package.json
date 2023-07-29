@@ -1,0 +1,21 @@
+{
+  "name": "bolt-app-template",
+  "version": "0.0.1",
+  "description": "A basic template to spin up a Bolt app for Slack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.6.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "level": "^6.0.1",
+    "winston": "^3.2.1"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "license": "MIT",
+  "keywords": []
+}
